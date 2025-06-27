@@ -38,7 +38,9 @@ export default {
 				},
 				success: {
 					DEFAULT: 'hsl(var(--success))',
-					foreground: 'hsl(var(--success-foreground))'
+					foreground: 'hsl(var(--success-foreground))',
+					accent: 'hsl(var(--success-accent))',
+					'accent-foreground': 'hsl(var(--success-accent-foreground))'
 				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
