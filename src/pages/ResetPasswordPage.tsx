@@ -88,7 +88,7 @@ const ResetPasswordPage = () => {
             </Alert>
           )}
           {success && (
-             <Alert variant="default" className="mb-4 bg-green-50 border-green-300 text-green-800">
+             <Alert variant="default" className="mb-4 border-success text-success bg-success/10">
               <CheckCircle className="h-4 w-4" />
               <AlertTitle>Success</AlertTitle>
               <AlertDescription>{success}</AlertDescription>
